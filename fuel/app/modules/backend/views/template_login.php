@@ -1,0 +1,12 @@
+<?=$doctype?>
+<html>
+<head>
+	<title><?=$title?></title>
+	<?=Asset::render()?>
+	<?=$meta_keywords?>
+	<?=$meta_description?>
+</head>
+<body>
+	<?=$body?>
+</body>
+</html>
