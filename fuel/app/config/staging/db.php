@@ -4,11 +4,16 @@
  */
 
 return array(
-	'default' => array(
-		'connection'  => array(
-			'dsn'        => 'mysql:host=localhost;dbname=fuel_staging',
-			'username'   => 'fuel_app',
-			'password'   => 'super_secret_password',
-		),
-	),
+	"default" => array(
+		"type" => "mysql",
+		"connection" => array(
+			"hostname" => "localhost",
+			"port" => 3306,
+			"database" => "",
+			"username" => "",
+			"password" => "",
+			"persistent" => true,
+			"compress" => false
+		)
+	)
 );
