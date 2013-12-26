@@ -1,0 +1,14 @@
+.widget {
+	margin-bottom: 15px;
+	background: #eee;
+}
+
+.widget .titulo {
+	background: #aaa;
+	color: white;
+	padding: 10px;
+}
+
+.widget .contenido {
+	padding: 10px;
+}

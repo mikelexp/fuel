@@ -1,0 +1,53 @@
+body {
+
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+textarea {
+	resize: vertical;
+}
+
+#todo {
+	margin: 0 auto;
+	padding: 10px;
+	min-width: 976px;
+	max-width: 1200px;
+	position: relative;
+}
+
+#scroll_to_top {
+	position: fixed;
+	bottom: 15px;
+	left: 15px;
+	width: 32px;
+	height: 32px;
+	background: url('../gfx/scroll.png') top left no-repeat;
+	display: none;
+	cursor: pointer;
+}
+
+#ajax {
+	position: fixed;
+	bottom: 15px;
+	left: 57px;
+	width: 32px;
+	height: 32px;
+	background: url('../gfx/ajax.png') top left no-repeat;
+	display: none;
+}
+
+section {
+	margin-bottom: 15px;
+}
+
+.email_iframe {
+	width: 100%;
+	height: 300px;
+	border: 5px solid #ddd;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}

@@ -1,0 +1,151 @@
+html {
+
+}
+
+body {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 62.5%;
+	font-size: 0.8em;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+/* layout */
+
+#todo {
+
+}
+
+#pagina {
+	width: 940px;
+	margin: 0 auto;
+}
+
+/* header */
+
+#header {
+	padding: 10px;
+	font-weight: bold;
+	background: #eee;
+}
+
+/* menu */
+
+#menu {
+	padding: 10px;
+	background: #ddd;
+}
+
+#menu ul {
+
+}
+
+#menu ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+#menu ul li a {
+
+}
+
+/* contenido */
+
+#contenido {
+	padding: 10px 0;
+	border-bottom: 1px solid black;
+}
+
+/* forms */
+
+form {
+	margin-bottom: 10px;
+}
+
+form fieldset {
+	margin-bottom: 10px;
+}
+
+form fieldset label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+form fieldset input[type='text'], form fieldset input[type='password'], form fieldset textarea {
+	padding: 5px;
+}
+
+form input[type='submit'], form button {
+	background: black;
+	border: 0;
+	margin: 0;
+	padding: 5px 15px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+/* errores */
+
+.errores {
+	border: 1px solid red;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.errores li {
+	list-style-type: none;
+	display: block;
+	color: red;
+}
+
+/* footer */
+
+#footer {
+	padding: 10px;
+	border-bottom: 1px solid black;
+	text-align: right;
+}
