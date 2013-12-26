@@ -1,0 +1,33 @@
+<?php
+
+class Model_Post_Comentario extends \Orm\Model
+{
+	protected static $_properties = array(
+		'id',
+		'post_id',
+		'usuario_id',
+		'fecha',
+		'texto',
+		'activo',
+		'created_at',
+		'updated_at',
+	);
+
+	protected static $_table_name = "posts_comentarios";
+
+	protected static $_belongs_to = array(
+		"usuario",
+		"post"
+	);
+
+	protected static $_observers = array(
+		'Orm\Observer_CreatedAt' => array(
+			'events' => array('before_insert'),
+			'mysql_timestamp' => false,
+		),
+		'Orm\Observer_UpdatedAt' => array(
+			'events' => array('before_save'),
+			'mysql_timestamp' => false,
+		),
+	);
+}
